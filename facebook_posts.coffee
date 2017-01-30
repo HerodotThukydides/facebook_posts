@@ -15,7 +15,7 @@ class Dashing.FacebookPosts extends Dashing.Widget
     @set 'page_info', @page_info
 
   startCarousel: ->
-    setInterval(@nextComment, 8000)
+    setInterval(@nextComment, 32000)
 
   nextComment: =>
     comments = @get('comments')
