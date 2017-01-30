@@ -33,13 +33,13 @@ def page_info(page_name)
 end
 
 # Your page name (see graph.facebook.com/YOUR_PAGE_NAME)
-page_name = ''
-# Your access token
-access_token = ''
-# Your app secret
-app_secret = ''
+page_name = 'XXXX'
+# Your access token 
+access_token = 'XXXX'
+
+
 
 SCHEDULER.every '1m', :first_in => 0 do
-  @graph = Koala::Facebook::API.new(access_token, app_secret)
+  @graph = Koala::Facebook::API.new(access_token)
   send_event('facebook_posts', {page_info: page_info(page_name), comments: facebook_posts(page_name)})
 end
