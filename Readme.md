@@ -1,5 +1,8 @@
 This widget is an extension of the comments widget to display facebook posts and page information
 
+##General Information
+https://github.com/Shopify/dashing/wiki/Dashing-Workshop
+
 ##Usage
 
 - add ‘koala’ to your gemfile
@@ -18,6 +21,6 @@ Feel free to fork or leave comments!
 ![widget_example](https://github.com/ssalinas/facebook_posts/raw/master/widget_example.png)
 
 ##Changes in fork
-- slowing down Carousel so longer posts will be readable as well
+- slowing down carousel so longer posts will be readable as well
 - change of widget design from white and black to blue and white
 - version without app secret
